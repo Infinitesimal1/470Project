@@ -1,0 +1,45 @@
+.page-wrapper {
+    max-width: 640px;
+    margin: 3rem auto;
+    padding: 2rem 2.5rem;
+    background: #ffffff;
+    border-radius: 16px;
+    box-shadow: 0 4px 18px rgba(0, 0, 0, 0.05);
+  }
+  
+  h1 {
+    margin-bottom: 1.5rem;
+  }
+  
+  .form {
+    display: flex;
+    flex-direction: column;
+    gap: 1.25rem;
+  }
+  
+  input,
+  textarea {
+    width: 100%;
+    padding: 0.9rem 1rem;
+    border: 1px solid #c9c9c9;
+    border-radius: 10px;
+    font-size: 1rem;
+  }
+  
+  .primary-btn {
+    align-self: flex-start;
+    padding: 0.8rem 2.2rem;
+    border: none;
+    border-radius: 10px;
+    font-weight: 600;
+    background: #6a0dad;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  .status {
+    margin-bottom: 0.8rem;
+    font-weight: 600;
+    color: crimson;
+  }
+  

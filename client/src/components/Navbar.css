@@ -1,0 +1,49 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px 16px;
+  background: rgba(255, 255, 255, 0.7);
+  backdrop-filter: blur(6px);
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+}
+
+.navbar-brand {
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: var(--primary);
+  cursor: pointer;
+  font-family: "Inter", "Segoe UI", sans-serif;
+}
+
+.navbar-actions {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.navbar-user {
+  font-size: 0.95rem;
+  font-weight: 500;
+  color: var(--text-dark);
+  font-family: "Inter", "Segoe UI", sans-serif;
+}
+
+.logout-btn {
+  background: var(--primary);
+  border: none;
+  color: var(--text-light);
+  padding: 8px 16px;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background 0.2s;
+  font-size: 0.9rem;
+  font-family: "Inter", "Segoe UI", sans-serif;
+}
+
+.logout-btn:hover {
+  background: var(--primary-dark);
+}
